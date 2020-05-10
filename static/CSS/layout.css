@@ -1,0 +1,147 @@
+
+/* font-family: 'Verdana', sans-serif; */
+
+
+body {
+    font-family: roboto;
+    font-size: 1.2vw;
+    padding-bottom: 5%;
+}
+
+div.content ul {
+    padding-bottom: 1.2vw;
+}
+
+div.content ul#nested {
+    margin-left: -5%;
+    font-size: 90%;
+}
+
+div.content li {
+    padding-top: 1.2vw;
+    margin-left: 10%;
+}
+
+div.content {
+    padding-top: 2%;
+    margin-left: 25%;
+    margin-right: 35%;
+}
+
+
+/* 30px */
+div.content h1 {
+    margin-left: 5%;
+    font-size: 2vw;
+}
+
+/* 30px */
+div.content h2 {
+    color: #00b386;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    margin-left: 5%;
+    font-size: 1.5vw;
+}
+
+
+div.content p {
+    text-align: justify;
+    text-indent: 8%;
+    margin-left: 5%;
+    /* font-size: 1.3vw; */
+}
+
+div.content a {
+    color: blue;
+    text-decoration: none;
+   
+}
+
+
+/* ##############  CONTENIDO DEL SIDEBAR ##############  */
+
+
+div.sidebar {
+    height: 100%;
+    width: 20%;
+    background-color: #545454;
+    position: fixed;
+    /* z-index: 1; */
+    padding-top: 50px;
+    text-align: center;
+    top: 0;
+    left: 0; 
+}
+
+/* Titulo principal del menu!! */
+div.sidebar h1 {
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+/* Enlaces del menu  */
+div.sidebar a {
+    font-size: 1.2vw;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Cambia de color el enlace al encimar puntero */
+div.sidebar a:hover {
+    color: #00b386;
+}
+
+/* Imagen de avatar en la sidebar   */
+div.sidebar img#avatar {
+    max-width: 60%; 
+    height: auto; 
+    border-radius: 50%;
+    background: #fff;
+}
+
+/* Descripcion breve  */
+div.sidebar .short-desc i {
+    font-size: 1vw;
+    color: #fff;
+}
+
+
+/* Separacion de iconos */
+div.sidebar nav {
+    padding-top: 10px;
+}
+
+
+/* Sin vinietas en los vinculos del menu! */
+div.sidebar ul {
+    padding-top: 20px;
+    list-style-type: none;
+}
+
+
+/* Cada item del menu  */
+div.sidebar li {
+    padding-right: 40px;
+    text-align: center;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* Iconos en el sidebar!  */
+div.sidebar .baricons img {
+    /* background-color: #fff; */
+    border-radius: 0;
+    width: 10%;
+    height: auto;
+    margin: 5px;
+    filter: invert(100%);
+}
+
+
+div.sidebar footer {
+    font-size: 1vw;
+    color: #fff;
+    padding-top: 20%;
+}
